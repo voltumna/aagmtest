@@ -2,13 +2,13 @@
     "service": [
         {
             "serviceDetail": {
-                "folderId": "dc4e994f3e401cb5bb54da218d364525",
-                "id": "dc4e994f3e401cb5bb54da218d364565",
-                "name": "test",
+                "folderId": "f1bd8dad916551a1ed66eaf53b0e3f04",
+                "id": "f1bd8dad916551a1ed66eaf53b0e3f44",
+                "name": "test 1",
                 "enabled": "true",
                 "serviceMappings": {
                     "httpMapping": {
-                        "urlPattern": "\/test",
+                        "urlPattern": "\/test\/1",
                         "verbs": {
                             "verb": [
                                 "GET",
@@ -31,7 +31,7 @@
                         },
                         {
                             "key": "policyRevision",
-                            "longValue": "2"
+                            "longValue": "1"
                         },
                         {
                             "key": "soap",
@@ -55,13 +55,13 @@
                         "resource": [
                             {
                                 "type": "policy",
-                                "content": "cartella 1\/test.xml"
+                                "content": "Cartella 1\/test 1.xml"
                             }
                         ]
                     }
                 ]
             },
-            "id": "dc4e994f3e401cb5bb54da218d364565"
+            "id": "f1bd8dad916551a1ed66eaf53b0e3f44"
         }
     ]
 }
